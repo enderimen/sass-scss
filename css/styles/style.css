@@ -1,0 +1,25 @@
+/*Variables*/
+/*Variables End*/
+body {
+  background-color: #dce775;
+}
+
+.amber_color {
+  background-color: #ffd54f;
+}
+
+.lime_color {
+  background-color: #dce775;
+}
+
+/*Nesting Example*/
+.container p {
+  font-size: 20px;
+}
+
+.container h3 {
+  font-size: 20px;
+  color: #303f9f;
+}
+
+/*# sourceMappingURL=style.css.map */
