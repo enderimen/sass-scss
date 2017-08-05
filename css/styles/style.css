@@ -26,4 +26,12 @@ hr {
   border: 2px dashed #ff5722;
 }
 
+footer {
+  background-color: #374046;
+  width: 100%;
+  color: #dce775;
+  line-height: 300px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */

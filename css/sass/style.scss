@@ -6,7 +6,6 @@
 	border: $_px $_style #{$_color};
 }
 
-
 /*-------------------------------------*/
 
 body{
@@ -33,6 +32,15 @@ body{
 	color: #303f9f;
 }
 /*Mixin Example*/
+
 hr{
 	@include _border(2px,dashed,#ff5722);
+}
+
+footer{
+	background-color: #374046;
+	width: 100%;
+	color: $lime_color;
+	line-height: 300px;
+	text-align: center;
 }
