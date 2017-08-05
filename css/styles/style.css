@@ -21,4 +21,9 @@ body {
   color: #303f9f;
 }
 
+/*Mixin Example*/
+hr {
+  border: 2px dashed #ff5722;
+}
+
 /*# sourceMappingURL=style.css.map */

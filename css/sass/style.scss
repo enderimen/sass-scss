@@ -2,6 +2,9 @@
 	$amber_color: #ffd54f;
 	$font_size:20px;
 
+@mixin _border(	$_px, $_style ,	$_color){
+	border: $_px $_style #{$_color};
+}
 
 
 /*-------------------------------------*/
@@ -28,4 +31,8 @@ body{
 .container h3{
 	font-size: $font_size;
 	color: #303f9f;
+}
+/*Mixin Example*/
+hr{
+	@include _border(2px,dashed,#ff5722);
 }
